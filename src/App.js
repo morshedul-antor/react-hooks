@@ -1,10 +1,10 @@
-import Count from "./components/Count.jsx";
+import Hook from "./components/MemoHooks/Hook";
 
 function App() {
     return (
-        <>
-            <Count />
-        </>
+        <div>
+            <Hook />
+        </div>
     );
 }
 

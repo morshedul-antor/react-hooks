@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Count() {
+export default function Hook() {
     const [count, setCount] = useState(0);
     const [theme, setTheme] = useState("Yellow");
 
